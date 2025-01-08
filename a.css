@@ -1,0 +1,216 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #1f1c21, #FAD0C4);
+    color: #333;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+header {
+    background-color: #97919b;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: #FAD0C4;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about aside {
+    background-color: #9b9191;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px 0;
+    object-fit: cover;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.comp img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.comp img:hover {
+    transform: scale(1.1);
+}
+
+.hobbies-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hobbies-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.hobbies-container img:hover {
+    transform: scale(1.1);
+}
+
+form {
+    background-color: #9b9191;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #FAD0C4;
+    border-radius: 5px;
+}
+         
+form button {
+    background-color: #1f1c21;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: none;
+}
+
+form button:hover {
+    background-color: #FAD0C4;
+}
+
+footer {
+    background-color: #97919b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    margin-bottom: 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-right {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-bottom {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.footer-info a {
+    color: #FAD0C4;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+.back-to-top {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000000;
+    
+}
+.back-to-top button:hover{
+    background-color: #FAD0C4;
+}
+.back-to-top button{
+    background-color: #1f1c21;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+
+.download-cv-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1f1c21;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.download-cv-button:hover {
+    background-color: #FAD0C4;
+}
